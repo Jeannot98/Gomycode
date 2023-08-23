@@ -1,0 +1,73 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  height: 50px;
+  position: fixed;
+  top: 0px;
+}
+nav label span {
+  font-weight: bold;
+  color: red;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  padding-right: 50px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  padding: 5px;
+}
+nav ul li a.active {
+  color: red;
+  background: black;
+  border-radius: 5px;
+}
+nav ul li a:hover {
+  color: white;
+  background: black;
+  border-radius: 5px;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.438);
+  background: url("/assets/pexels-thisisengineering-3861972.jpg");
+  background-size: contain;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 10px;
+  height: 93vh;
+}
+.parent .children {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(241, 67, 67, 0.582);
+  padding: 5px;
+  border-radius: 10px;
+}
+.parent .children input {
+  height: 40px;
+}
+.parent .children button {
+  height: 30px;
+  width: 50%;
+  color: white;
+  background: black;
+  border-radius: 30px;
+}
+.parent .children .container span {
+  font-weight: bold;
+  font-size: large;
+}/*# sourceMappingURL=second.css.map */
