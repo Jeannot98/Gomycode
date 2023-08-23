@@ -40,7 +40,7 @@ nav ul li a:hover {
   display: flex;
   flex-direction: column;
   background-color: rgba(0, 0, 0, 0.438);
-  background: url("/assets/pexels-thisisengineering-3861972.jpg");
+  background: url("/assets/image.jpg");
   background-size: contain;
   align-items: center;
   justify-content: center;
