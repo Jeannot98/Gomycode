@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="second.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <label for="logo">GOMYC<span>O</span>DE</label>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/pages/checkPoint1/checkPoint1.html">CheckPoint1</a></li>
+            <li><a class="active" href="/pages/checkPoint2/checkPoint2.html">CheckPoint2</a></li>
+        </ul>
+    </nav>
+    <div class="parent">
+        <div class="children">
+            <h1>Vector 1:</h1>
+            <div class="vector">
+                <input type="number" id="x1" placeholder="X1">
+                <input type="number" id="y1" placeholder="Y1">
+                <input type="number" id="z1" placeholder="Z1">
+            </div>
+            <h1>Vector 1:</h1>
+            <div class="vector">
+                <input type="number" id="x2" placeholder="X2">
+                <input type="number" id="y2" placeholder="Y2">
+                <input type="number" id="z2" placeholder="Z2">
+            </div>
+            <button type="button" id="myButton">Submit</button><br>
+            <div class="container">
+                <span>
+                    <h5 id="vector1"></h5>
+                </span>
+                <span> <h5 id="vector2"></h5></span>
+                <span><h5 id="scalar-product"></h5></span>
+                <span><h5 id="conclusion"></h5></span>
+            </div>
+        </div>
+    </div>
+    <div class="parent">
+        <div class="children">
+            <h1> Add element:</h1>
+                <input type="number" id="element" placeholder="Element">
+            <button type="button" id="button">Submit</button><br>
+            <div class="container">
+                <span>
+                    <h5 id="array"></h5>
+                </span>
+            </div>
+        </div>
+    </div>
+    <script src="checkPoint2.js">
+    </script>
+</body>
+
+</html>

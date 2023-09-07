@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="first.css">
+</head>
+<body>
+    <nav class="navbar">
+        <label for="logo">GOMYC<span>O</span>DE</label>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a class="active" href="/pages/checkPoint1/checkPoint1.html">CheckPoint1</a></li>
+            <li><a href="/pages/checkPoint2/checkPoint2.html">CheckPoint2</a></li>
+        </ul>
+    </nav>
+    <div class="parent">
+        <h1>First Task</h1>
+        <div class="children">
+            <h2>Enter your sentence:</h2>
+            <input type="text" id="myText" placeholder="please end your sentence with a period(.)"><br>
+            <button type="button" id="Button">Submit</button><br>
+            <div class="container">
+                <span>Number of words:
+                    <h5 id="words"></h5>
+                </span>
+                <span>Number of vowel: <h5 id="vowel"></h5></span>
+            </div>
+        </div>
+    </div>
+    <div class="parent">
+        <h1>Second Task</h1>
+        <div class="children">
+            <h2>Set1:</h2>
+            <input type="text" id="mySet1" placeholder="Set1">
+            <h2>Set2:</h2>
+            <input type="text" id="mySet2" placeholder="Set2"><br>
+            <button type="button" id="myButton">Submit</button><br>
+            <div class="container">
+                <span>Distinct elements:
+                    <h5 id="Distinct"></h5>
+                </span>
+                <span>Sum: <h5 id="sum"></h5></span>
+            </div>
+        </div>
+    </div>
+    <script src="checkPoint1.js">
+    </script>
+</body>
+</html>

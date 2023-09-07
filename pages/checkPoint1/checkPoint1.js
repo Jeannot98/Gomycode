@@ -2,7 +2,7 @@
     alert("")
 }*/
 
-document.getElementById("myButton").onclick = function(){
+document.getElementById("Button").onclick = function(){
 
     var mySentence = document.getElementById("myText").value;
     var sum = 0;
@@ -35,4 +35,38 @@ document.getElementById("myButton").onclick = function(){
  
 }
 
+document.getElementById("myButton").onclick = function () {
+    var set1 = document.getElementById("mySet1").value;
+    var set2 = document.getElementById("mySet2").value;
+    var distinctElement = [];
+    var sum = 0;
+
+    for (n = 0; n < set1.length; n++) {
+        for (j = 0; j < set2.length; j++) {
+           if(set1[n] == set2[j]) break;
+        }
+
+        if(j === set2.length){
+            sum += Number(set1[n])
+            distinctElement.push(set1[n])
+        }
+    }
+
+    for (j = 0; j < set2.length; j++) {
+        for (n = 0; n < set1.length; n++) {
+           if(set2[j] == set1[n]) break;
+        }
+
+        if(n === set1.length){
+            sum += Number(set2[j])
+            distinctElement.push(set2[j])
+        }
+    }
+
+
+
+    document.getElementById("Distinct").innerHTML = distinctElement;
+    document.getElementById("sum").innerHTML = sum;
+
+}
 

@@ -37,10 +37,9 @@ nav {
             }
 
             a.active{
-                color: red;
                 background: black;
                 border-radius: 5px;
-
+                color: red;
             }
 
             a:hover{
@@ -64,6 +63,10 @@ nav {
     padding: 10px;
     height: 93vh;
 
+    h1{
+        color: red;
+    }
+
 
 
     .children {
@@ -76,16 +79,16 @@ nav {
         border-radius: 10px;
 
         input {
-            height: 40px;
-            width: 25%;
+            height: 59px;
+            width: 90%;
         }
 
         button {
             height: 30px;
             width: 50%;
+            border-radius: 30px;
             color: white;
             background: black;
-            border-radius: 30px;
         }
 
         .container {

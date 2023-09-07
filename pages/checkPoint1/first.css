@@ -26,9 +26,9 @@ nav ul li a {
   padding: 5px;
 }
 nav ul li a.active {
-  color: red;
   background: black;
   border-radius: 5px;
+  color: red;
 }
 nav ul li a:hover {
   color: white;
@@ -48,6 +48,9 @@ nav ul li a:hover {
   padding: 10px;
   height: 93vh;
 }
+.parent h1 {
+  color: red;
+}
 .parent .children {
   display: flex;
   flex-direction: column;
@@ -58,17 +61,17 @@ nav ul li a:hover {
   border-radius: 10px;
 }
 .parent .children input {
-  height: 40px;
-  width: 25%;
+  height: 59px;
+  width: 90%;
 }
 .parent .children button {
   height: 30px;
   width: 50%;
+  border-radius: 30px;
   color: white;
   background: black;
-  border-radius: 30px;
 }
 .parent .children .container span {
   font-weight: bold;
   font-size: large;
-}/*# sourceMappingURL=second.css.map */
+}/*# sourceMappingURL=first.css.map */
